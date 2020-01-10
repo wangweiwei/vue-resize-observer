@@ -5,7 +5,7 @@ var VueResizeObserver = null;
 if (process.env.NODE_ENV === "development") {
   VueResizeObserver = require("../src");
 } else {
-  VueResizeObserver = require("../dist/vue-resize-event.js");
+  VueResizeObserver = require("../dist");
 }
 
 Vue.use(VueResizeObserver);

@@ -6,7 +6,7 @@ import cleanup from "rollup-plugin-cleanup";
 export default {
   input: "./src",
   output: {
-    file: "./dist/vue-resize-observer.js",
+    file: "./dist/index.js",
     format: "umd",
     name: "__vue_resize_observer__",
     sourcemap: true
