@@ -62,5 +62,13 @@ export default {
 </style>
 ```
 
+## 开发文档
+* 文档生成
+```
+npm run doc
+```
+
+* 打开位于`docs`的`index.html`即可查看开发文档
+
 ## ⚠️  注意
 在当前元素的`position`属性不为非`static`的情况下，会改变当前元素的`position`属性为`relative`，所以对此属性敏感的元素需要谨慎对待
