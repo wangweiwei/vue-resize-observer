@@ -62,6 +62,14 @@ export default {
 </style>
 ```
 
+## 开发 & 例子
+* 运行
+```
+npm run dev
+```
+
+* 打开：[http://localhost:8080](http://localhost:8080/)
+
 ## 开发文档
 * 文档生成
 ```
