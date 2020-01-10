@@ -1,6 +1,6 @@
 {
   "name": "vue-resize-observer",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Vue普通元素resize事件监听",
   "main": "dist/index.js",
   "files": [
@@ -10,7 +10,8 @@
   ],
   "keywords": [
     "vue",
-    "dom",
+    "vuejs",
+    "plugin",
     "resize",
     "event",
     "observer"
@@ -48,6 +49,17 @@
     "webpack": "^4.41.5",
     "webpack-dev-server": "^3.10.1"
   },
+  "peerDependencies": {
+    "vue": "^2.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangweiwei/vue-resize-observer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wangweiwei/vue-resize-observer/issues"
+  },
+  "homepage": "https://github.com/wangweiwei/vue-resize-observer#readme",
   "author": "wangweiwei",
   "license": "MIT"
 }
