@@ -3,6 +3,13 @@
   "version": "1.0.2",
   "description": "Vue普通元素resize事件监听",
   "main": "dist/vue-resize-observer.js ",
+  "keywords": [
+    "vue",
+    "dom",
+    "resize",
+    "event",
+    "observer"
+  ],
   "scripts": {
     "build": "node_modules/.bin/rollup -m -c build/rollup.config.prod.js && uglifyjs dist/vue-resize-observer.js -c -m > dist/vue-resize-observer.min.js",
     "dev": "node build/dev.js",
@@ -13,14 +20,6 @@
     "format:test": "prettier-eslint --write \"test/**/*.html\" \"test/**/*.scss\" \"test/**/*.js\" \"test/**/*.vue\"",
     "format": "npm run format:src & npm run format:build & npm run format:example & npm run format:test"
   },
-  "author": "王威威",
-  "keywords": [
-    "vue",
-    "dom",
-    "resize",
-    "event",
-    "observer"
-  ],
   "dependencies": {
     "vue": "^2.6.11"
   },
@@ -43,5 +42,7 @@
     "uglify-js": "^3.7.4",
     "webpack": "^4.41.5",
     "webpack-dev-server": "^3.10.1"
-  }
+  },
+  "author": "wangweiwei",
+  "license": "MIT"
 }
