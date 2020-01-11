@@ -27,7 +27,7 @@
     "format": "npm run format:src & npm run format:build & npm run format:example & npm run format:test"
   },
   "dependencies": {
-    "vue": "^2.6.11"
+    "vue": "2.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-unit-jest": "^4.1.2",
@@ -46,12 +46,11 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "style-loader": "^1.1.2",
     "uglify-js": "^3.7.4",
+    "vue-loader": "^15.8.3",
     "webpack": "^4.41.5",
     "webpack-dev-server": "^3.10.1"
   },
-  "peerDependencies": {
-    "vue": "^2.6.0"
-  },
+  "peerDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wangweiwei/vue-resize-observer.git"

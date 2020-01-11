@@ -10,7 +10,7 @@ if (process.env.NODE_ENV === "development") {
 
 Vue.use(VueResizeObserver);
 
-const app = new Vue({
+var app = new Vue({
   el: "#app",
   data() {
     return {

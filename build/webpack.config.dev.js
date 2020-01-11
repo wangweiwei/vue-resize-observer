@@ -1,6 +1,7 @@
 var path = require("path");
 var webpack = require("webpack");
 
+
 const config = {
   mode: "development",
   entry: {
@@ -15,7 +16,7 @@ const config = {
   },
   resolve: {
     alias: {
-      vue$: "vue/dist/vue.common"
+      vue$: "vue/dist/vue",
     }
   },
   module: {
