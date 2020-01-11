@@ -4,7 +4,7 @@
 
 Vue普通元素resize事件监听，借鉴自[Cross-Browser, Event-based, Element Resize Detection](http://www.backalleycoder.com/2013/03/18/cross-browser-event-based-element-resize-detection/)
 
-![demo gif](example/demo.gif)
+![demo gif](https://github.com/wangweiwei/vue-resize-observer/raw/master/example/demo.gif)
 
 ## 安装
 ```
