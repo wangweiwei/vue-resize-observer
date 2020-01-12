@@ -146,7 +146,7 @@ const resizeObserverDirective = {
   unbind(el) {
     if (document.attachEvent) {
       el.detachEvent("onresize", resizeHandler);
-    } else {
+    } else if(el.__resizeTrigger__ && el.__resizeTrigger__.contentDocument) {
       el.__resizeTrigger__.contentDocument.defaultView.removeEventListener(
         "resize",
         resizeTriggerListener
