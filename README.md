@@ -64,13 +64,17 @@ export default {
 </style>
 ```
 
-## 开发 & 例子
+## 开发 
+
 * 运行
 ```
 npm run dev
 ```
 
 * 打开：[http://localhost:8080](http://localhost:8080/)
+
+## 例子
+[![Edit vue-resize-observer example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/interesting-turing-2o4z9?fontsize=14&module=%2Fsrc%2Fcomponents%2FVueResizeObserverExample.vue&theme=dark&view=preview)
 
 ## 开发文档
 * 文档生成
