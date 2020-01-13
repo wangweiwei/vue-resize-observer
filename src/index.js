@@ -1,6 +1,5 @@
 const {
   isIE,
-  resizeTrigger,
   $requestAnimationFrame,
   $cancelAnimationFrame
 } = require("./utils");
