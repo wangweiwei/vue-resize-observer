@@ -4,13 +4,7 @@
 
 Vue普通元素resize事件监听，借鉴自[Cross-Browser, Event-based, Element Resize Detection](http://www.backalleycoder.com/2013/03/18/cross-browser-event-based-element-resize-detection/)
 
-<iframe
-  src="https://codesandbox.io/embed/interesting-turing-2o4z9?fontsize=14&module=%2Fsrc%2Fcomponents%2FVueResizeObserverExample.vue&theme=dark&view=preview"
-  style="width: 100%; height:600px; margin: 0 auto; border:0; border-radius: 4px; overflow:hidden;"
-  title="vue-resize-observer example"
-  allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
-  sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
-></iframe>
+![demo gif](https://github.com/wangweiwei/vue-resize-observer/raw/master/example/demo.gif)
 
 ## 安装
 ```
