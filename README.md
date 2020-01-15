@@ -1,6 +1,9 @@
 # Vue Resize Observer
+
+[![Latest Version on NPM](https://img.shields.io/npm/v/vue-resize-observer.svg?style=flat-square)](https://npmjs.com/package/vue-resize-observer)
 [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
-[![npm](https://img.shields.io/npm/dm/vue-resize-observer.svg)](https://www.npmjs.com/package/vue-resize-observer)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/wangweiwei/vue-resize-observer/blob/master/LICENSE)
+[![Download Count](https://img.shields.io/npm/dm/vue-resize-observer.svg)](https://www.npmjs.com/package/vue-resize-observer)
 
 Vue普通元素resize事件监听，借鉴自[Cross-Browser, Event-based, Element Resize Detection](http://www.backalleycoder.com/2013/03/18/cross-browser-event-based-element-resize-detection/)
 
