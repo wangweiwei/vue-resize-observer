@@ -51,6 +51,9 @@
     "webpack-dev-server": "^3.10.1"
   },
   "peerDependencies": {},
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/" 
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wangweiwei/vue-resize-observer.git"
