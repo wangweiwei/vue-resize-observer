@@ -76,8 +76,8 @@ function createResizeTrigger() {
     position: absolute !important; 
     top: 0 !important; 
     left: 0 !important; 
-    height: 100% !important; 
     width: 100% !important; 
+    height: 100% !important; 
     overflow: hidden !important; 
     pointer-events: none !important; 
     z-index: -1 !important; 
