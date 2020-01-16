@@ -92,7 +92,7 @@ npm run doc
 
 ## 依赖
 [![Dependency Status](https://david-dm.org/wangweiwei/vue-resize-observer.svg)](https://david-dm.org/wangweiwei/vue-resize-observer)
-[![devDependency Status](https://david-dm.org/wangweiwei/vue-resize-observer/dev-status.svg)](https://david-dm.org//wangweiwei/vue-resize-observer#info=devDependencies)
+[![devDependency Status](https://david-dm.org/wangweiwei/vue-resize-observer/dev-status.svg)](https://david-dm.org//wangweiwei/vue-resize-observer?type=dev&view=list)
 
 ## (MIT)开源协议
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/wangweiwei/vue-resize-observer/blob/master/LICENSE)
