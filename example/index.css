@@ -7,9 +7,17 @@ h1 {
   border-bottom: 1px solid #eaecef;
 }
 #app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.test1, .test2 {
   background-color: orange;
-  width: 300px;
-  height: 300px;
+  width: 180px;
+  height: 180px;
   margin: 0 auto;
   resize: both;
   overflow: auto;
@@ -17,4 +25,3 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-

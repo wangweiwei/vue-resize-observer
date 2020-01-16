@@ -12,8 +12,13 @@
   </head>
   <body>
     <h1>vue-resize-observer</h1>
-    <div v-resize="onResize" id="app">
-      width: {{width}}, height: {{height}}
+    <div id="app">
+      <div v-resize="onResize1" ref="resize1" class="test1">
+        width: {{width1}}, height: {{height1}}
+      </div>
+      <div v-resize="onResize2" ref="resize2" class="test2">
+        width: {{width2}}, height: {{height2}}
+      </div>
     </div>
     <script src="vue.build.js"></script>
     <script src="example.build.js"></script>
