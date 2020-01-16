@@ -1,8 +1,8 @@
-const {
+import {
   isIE,
   $requestAnimationFrame,
   $cancelAnimationFrame
-} = require("./utils");
+} from "./utils";
 
 /**
  * resize处理器，此处回调元素v-resize的方法

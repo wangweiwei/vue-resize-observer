@@ -1,6 +1,6 @@
 {
   "name": "vue-resize-observer",
-  "version": "1.0.15",
+  "version": "1.0.18",
   "description": "Vue普通元素resize事件监听",
   "main": "dist/index.js",
   "files": [
@@ -36,9 +36,9 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@vue/cli-plugin-unit-jest": "^4.1.2",
     "@vue/test-utils": "^1.0.0-beta.30",
+    "babel-loader": "^8.0.6",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "buble": "^0.19.8",
-    "buble-loader": "^0.5.1",
     "css-loader": "^3.4.1",
     "cypress": "^3.8.2",
     "docdash": "^1.1.1",
@@ -62,9 +62,6 @@
     "webpack-dev-server": "^3.10.1"
   },
   "peerDependencies": {},
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wangweiwei/vue-resize-observer.git"

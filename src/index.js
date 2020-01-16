@@ -1,4 +1,4 @@
-const { resizeObserverDirective } = require('./resize-observer-directive');
+import { resizeObserverDirective } from './resize-observer-directive';
 
 /**
  * vue resize事件对象
@@ -17,6 +17,8 @@ const vueResizeObserver = {
     Vue.directive("resize", resizeObserverDirective);
   }
 };
+
+export default vueResizeObserver;
 
 /**
  * 模块处理

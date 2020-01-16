@@ -1,9 +1,9 @@
-var Vue = require("vue");
+import Vue from "vue";
 
 var VueResizeObserver = null;
 
 if (process.env.NODE_ENV === "development") {
-  VueResizeObserver = require("../src");
+  VueResizeObserver = require("../src").default;
 } else {
   VueResizeObserver = require("../dist");
 }
