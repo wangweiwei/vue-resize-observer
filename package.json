@@ -1,6 +1,6 @@
 {
   "name": "vue-resize-observer",
-  "version": "1.0.19",
+  "version": "1.0.21",
   "description": "Vue普通元素resize事件监听",
   "main": "dist/index.js",
   "files": [
@@ -27,9 +27,7 @@
     "format:test": "prettier-eslint --write \"test/**/*.html\" \"test/**/*.scss\" \"test/**/*.js\" \"test/**/*.vue\"",
     "format": "npm run format:src & npm run format:build & npm run format:example & npm run format:test"
   },
-  "dependencies": {
-    "vue": "2.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
@@ -54,6 +52,7 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "style-loader": "^1.1.2",
     "uglify-js": "^3.7.4",
+    "vue": "2.0.0",
     "vue-jest": "^3.0.5",
     "vue-loader": "^15.8.3",
     "vue-template-compiler": "2.0.0",
