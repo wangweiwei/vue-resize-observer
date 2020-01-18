@@ -6,7 +6,7 @@
 [![issue](https://img.shields.io/badge/bug-issue-red.svg)](https://github.com/wangweiwei/vue-resize-observer/issues)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/wangweiwei/vue-resize-observer/blob/master/LICENSE)
 
-English | [简体中文](./README.zh.md)
+English | [简体中文](https://github.com/wangweiwei/vue-resize-observer/blob/master/README.zh.md)
 
 ![demo gif](https://github.com/wangweiwei/vue-resize-observer/raw/master/example/demo.gif)
 

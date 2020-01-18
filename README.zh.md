@@ -5,7 +5,7 @@
 [![Download Count](https://img.shields.io/npm/dm/vue-resize-observer.svg)](https://www.npmjs.com/package/vue-resize-observer)
 [![issue](https://img.shields.io/badge/bug-issue-red.svg)](https://github.com/wangweiwei/vue-resize-observer/issues)
 
-[English](./README.md) | 简体中文
+[English](https://github.com/wangweiwei/vue-resize-observer/blob/master/README.md) | 简体中文
 
 > Vue普通元素resize事件监听，借鉴自[Cross-Browser, Event-based, Element Resize Detection](http://www.backalleycoder.com/2013/03/18/cross-browser-event-based-element-resize-detection/)
 
