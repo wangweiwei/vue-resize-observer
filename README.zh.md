@@ -5,6 +5,8 @@
 [![Download Count](https://img.shields.io/npm/dm/vue-resize-observer.svg)](https://www.npmjs.com/package/vue-resize-observer)
 [![issue](https://img.shields.io/badge/bug-issue-red.svg)](https://github.com/wangweiwei/vue-resize-observer/issues)
 
+[English](./README.md) | 简体中文
+
 > Vue普通元素resize事件监听，借鉴自[Cross-Browser, Event-based, Element Resize Detection](http://www.backalleycoder.com/2013/03/18/cross-browser-event-based-element-resize-detection/)
 
 ![demo gif](https://github.com/wangweiwei/vue-resize-observer/raw/master/example/demo.gif)
@@ -27,7 +29,7 @@ Vue.use(VueResizeObserver);
 ```
 import VueResizeObserver from "vue-resize-observer";
 Vue.use(VueResizeObserver);
-`
+```
 
 * 在组件元素中使用`v-resize`
 ```
