@@ -18,7 +18,7 @@ npm install --save vue-resize-observer
 
 ## Module import & Example
 
-* Import the package adn install it into Vue:
+* Import the package and install it into Vue:
 
 ```
 const VueResizeObserver = require("vue-resize-observer");
