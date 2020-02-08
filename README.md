@@ -1,4 +1,4 @@
-# Resize Observer
+# Vue Resize Observer
 
 [![Latest Version on NPM](https://img.shields.io/npm/v/vue-resize-observer.svg?style=flat-square)](https://npmjs.com/package/vue-resize-observer)
 [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
