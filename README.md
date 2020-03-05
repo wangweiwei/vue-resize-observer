@@ -2,7 +2,7 @@
 
 [![Latest Version on NPM](https://img.shields.io/npm/v/vue-resize-observer.svg?style=flat-square)](https://npmjs.com/package/vue-resize-observer)
 [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
-[![Download Count](https://img.shields.io/npm/dm/vue-resize-observer.svg)](https://www.npmjs.com/package/vue-resize-observer)
+[![Download Count](https://img.shields.io/npm/dt/vue-resize-observer.svg)](https://www.npmjs.com/package/vue-resize-observer)
 [![issue](https://img.shields.io/badge/bug-issue-red.svg)](https://github.com/wangweiwei/vue-resize-observer/issues)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/wangweiwei/vue-resize-observer/blob/master/LICENSE)
 
