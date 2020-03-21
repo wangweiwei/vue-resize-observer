@@ -91,7 +91,7 @@ export default {
 npm run doc
 ```
 
-Or read the documentations online
+Or read the documentation online
 
 [![Read the Docs Online](https://img.shields.io/badge/-Read--the--Docs--Online-blue?style=for-the-badge&logo=read-the-docs)](https://www.ellow.cn/docs/vue-resize-observer/index.html)
 
