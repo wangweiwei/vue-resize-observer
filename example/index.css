@@ -2,9 +2,10 @@ html, body {
   padding: 0; 
   margin: 0; 
 }
-h1 {
+.py-5 h1 {
   text-align: center;
   border-bottom: 1px solid #eaecef;
+  padding-bottom: 20px;
 }
 #app {
   display: flex;
@@ -15,7 +16,8 @@ h1 {
 }
 
 .test1, .test2 {
-  background-color: orange;
+  background-color: #39495C;
+  color: #64B587;
   width: 180px;
   height: 180px;
   margin: 0 auto;

@@ -1,10 +1,14 @@
 # Vue Resize Observer
 
-[![Latest Version on NPM](https://img.shields.io/npm/v/vue-resize-observer.svg?style=flat-square)](https://npmjs.com/package/vue-resize-observer)
+[![Latest Version on NPM](https://img.shields.io/npm/v/vue-resize-observer)](https://npmjs.com/package/vue-resize-observer)
 [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
-[![Download Count](https://img.shields.io/npm/dt/vue-resize-observer.svg)](https://www.npmjs.com/package/vue-resize-observer)
-[![issue](https://img.shields.io/badge/bug-issue-red.svg)](https://github.com/wangweiwei/vue-resize-observer/issues)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/wangweiwei/vue-resize-observer/blob/master/LICENSE)
+[![Issue](https://img.shields.io/badge/-help--wanted-brightgreen)](https://github.com/wangweiwei/vue-resize-observer/issues)
+[![Software License](https://img.shields.io/npm/l/vue-resize-observer)](https://github.com/wangweiwei/vue-resize-observer/blob/master/LICENSE)
+[![Contributors Anon](https://img.shields.io/github/contributors-anon/wangweiwei/vue-resize-observer)](https://github.com/wangweiwei/vue-resize-observer)
+[![Code Size](https://img.shields.io/github/languages/code-size/wangweiwei/vue-resize-observer)](https://github.com/wangweiwei/vue-resize-observer)
+[![Languages Count](https://img.shields.io/github/languages/count/wangweiwei/vue-resize-observer)](https://github.com/wangweiwei/vue-resize-observer)
+[![Languages](https://img.shields.io/github/languages/top/wangweiwei/vue-resize-observer)](https://github.com/wangweiwei/vue-resize-observer)
+[![Examle Online](https://img.shields.io/badge/-Example--Online-blue)](https://www.ellow.cn/examples/vue-resize-observer/index.html)
 
 English | [简体中文](https://github.com/wangweiwei/vue-resize-observer/blob/master/README.zh.md)
 
@@ -79,13 +83,17 @@ export default {
 
 ## Example on codesandbox
 
-[![Edit vue-resize-observer example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/interesting-turing-2o4z9?fontsize=14&module=%2Fsrc%2Fcomponents%2FVueResizeObserverExample.vue&theme=dark&view=preview)
+[![Example Online](https://img.shields.io/badge/-Example--Online-blue?style=for-the-badge&logo=internet-explorer)](https://www.ellow.cn/examples/vue-resize-observer/index.html)
 
 ## Documentation
 
 ```
 npm run doc
 ```
+
+Or Read the Docs Online
+
+[![Read the Docs Online](https://img.shields.io/badge/-Read--the--Docs--Online-blue?style=for-the-badge&logo=read-the-docs)](https://www.ellow.cn/docs/vue-resize-observer/index.html)
 
 ## ⚠️  Notice
 

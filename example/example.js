@@ -1,15 +1,3 @@
-import Vue from "vue";
-
-var VueResizeObserver = null;
-
-if (process.env.NODE_ENV === "development") {
-  VueResizeObserver = require("../src").default;
-} else {
-  VueResizeObserver = require("../dist");
-}
-
-Vue.use(VueResizeObserver);
-
 var app = new Vue({
   el: "#app",
   data() {
