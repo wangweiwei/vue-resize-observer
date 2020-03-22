@@ -81,7 +81,7 @@ export default {
 </style>
 ```
 
-## Example on codesandbox
+## Example
 
 [![Example Online](https://img.shields.io/badge/-Example--Online-blue?style=for-the-badge&logo=internet-explorer)](https://www.ellow.cn/examples/vue-resize-observer/index.html)
 
