@@ -1,14 +1,41 @@
-# Vue Resize Observer
+<p align="center">
+  <a href="https://www.ellow.cn/examples/vue-resize-observer/index.html" target="_blank">
+    <img width="100" src="https://raw.githubusercontent.com/wangweiwei/vue-resize-observer/master/example/logo.png" alt="logo">
+  </a>
+</p>
 
-[![Latest Version on NPM](https://img.shields.io/npm/v/vue-resize-observer)](https://npmjs.com/package/vue-resize-observer)
-[![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
-[![Issue](https://img.shields.io/badge/-help--wanted-brightgreen)](https://github.com/wangweiwei/vue-resize-observer/issues)
-[![Software License](https://img.shields.io/npm/l/vue-resize-observer)](https://github.com/wangweiwei/vue-resize-observer/blob/master/LICENSE)
-[![Contributors Anon](https://img.shields.io/github/contributors-anon/wangweiwei/vue-resize-observer)](https://github.com/wangweiwei/vue-resize-observer)
-[![Code Size](https://img.shields.io/github/languages/code-size/wangweiwei/vue-resize-observer)](https://github.com/wangweiwei/vue-resize-observer)
-[![Languages Count](https://img.shields.io/github/languages/count/wangweiwei/vue-resize-observer)](https://github.com/wangweiwei/vue-resize-observer)
-[![Languages](https://img.shields.io/github/languages/top/wangweiwei/vue-resize-observer)](https://github.com/wangweiwei/vue-resize-observer)
-[![Examle Online](https://img.shields.io/badge/-Example--Online-blue)](https://www.ellow.cn/examples/vue-resize-observer/index.html)
+<h2 align="center">Vue Resize Observer</h2>
+
+<p align="center">
+  <a href="https://npmjs.com/package/vue-resize-observer" rel="nofollow">
+    <img alt="Latest Version on NPM" src="https://img.shields.io/npm/v/vue-resize-observer" style="max-width:100%;">
+  </a>
+  <a href="https://vuejs.org/" rel="nofollow">
+    <img alt="vue2" src="https://img.shields.io/badge/vue-2.x-brightgreen.svg" style="max-width:100%;">
+  </a>
+  <a href="https://github.com/wangweiwei/vue-resize-observer/issues">
+    <img alt="Issue" src="https://img.shields.io/badge/-help--wanted-brightgreen" style="max-width:100%;">
+  </a>
+  <a href="https://github.com/wangweiwei/vue-resize-observer/blob/master/LICENSE">
+    <img alt="Software License" src="https://img.shields.io/npm/l/vue-resize-observer" style="max-width:100%;">
+  </a>
+  <a href="https://github.com/wangweiwei/vue-resize-observer">
+    <img alt="Contributors Anon" src="https://img.shields.io/github/contributors-anon/wangweiwei/vue-resize-observer" style="max-width:100%;">
+  </a>
+  <a href="https://github.com/wangweiwei/vue-resize-observer">
+    <img alt="Code Size" src="https://img.shields.io/github/languages/code-size/wangweiwei/vue-resize-observer" style="max-width:100%;">
+  </a>
+  <br/>
+  <a href="https://github.com/wangweiwei/vue-resize-observer">
+    <img alt="Languages Count" src="https://img.shields.io/github/languages/count/wangweiwei/vue-resize-observer" style="max-width:100%;">
+  </a>
+  <a href="https://github.com/wangweiwei/vue-resize-observer">
+    <img alt="Languages" src="https://img.shields.io/github/languages/top/wangweiwei/vue-resize-observer" style="max-width:100%;">
+  </a>
+  <a href="https://www.ellow.cn/examples/vue-resize-observer/index.html" rel="nofollow">
+    <img alt="Examle Online" src="https://img.shields.io/badge/-Example--Online-blue" style="max-width:100%;">
+  </a>
+</p>
 
 [English](https://github.com/wangweiwei/vue-resize-observer/blob/master/README.md) | 简体中文
 
