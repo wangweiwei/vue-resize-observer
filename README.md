@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.ellow.cn/examples/vue-resize-observer/index.html" target="_blank">
-    <img width="100" src="https://raw.githubusercontent.com/wangweiwei/vue-resize-observer/master/example/logo.png" alt="logo">
+    <img width="160" src="https://raw.githubusercontent.com/wangweiwei/vue-resize-observer/master/example/logo.png" alt="logo">
   </a>
 </p>
 
