@@ -26,6 +26,9 @@
     <img alt="Code Size" src="https://img.shields.io/github/languages/code-size/wangweiwei/vue-resize-observer" style="max-width:100%;">
   </a>
   <br/>
+  <a href="https://npmjs.com/package/vue-resize-observer">
+    <img alt="Downloads" src="https://img.shields.io/npm/dt/vue-resize-observer.svg" style="max-width:100%;">
+  </a>
   <a href="https://github.com/wangweiwei/vue-resize-observer">
     <img alt="Languages Count" src="https://img.shields.io/github/languages/count/wangweiwei/vue-resize-observer" style="max-width:100%;">
   </a>
