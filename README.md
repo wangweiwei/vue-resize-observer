@@ -26,6 +26,9 @@
     <img alt="Code Size" src="https://img.shields.io/github/languages/code-size/wangweiwei/vue-resize-observer" style="max-width:100%;">
   </a>
   <br/>
+  <a href="https://npmjs.com/package/vue-resize-observer">
+    <img alt="Downloads" src="https://img.shields.io/npm/dt/vue-resize-observer.svg" style="max-width:100%;">
+  </a>
   <a href="https://github.com/wangweiwei/vue-resize-observer">
     <img alt="Languages Count" src="https://img.shields.io/github/languages/count/wangweiwei/vue-resize-observer" style="max-width:100%;">
   </a>
@@ -43,6 +46,11 @@ English | [简体中文](https://github.com/wangweiwei/vue-resize-observer/blob/
 
 ## Installation
 
+- Vue3.0
+```
+npm install --save vue-resize-observer@next
+```
+- Vue2.0
 ```
 npm install --save vue-resize-observer
 ```
@@ -53,7 +61,12 @@ npm install --save vue-resize-observer
 
 ```
 const VueResizeObserver = require("vue-resize-observer");
-Vue.use(VueResizeObserver);
+// Vue3.0
+const app = createApp(App)
+app.use(VueResizeObserver) // use is a instance's method & be called before mount
+app.mount('#app')
+// Vue2.0
+Vue.use(VueResizeObserver); // use is a static method
 ```
 
 or
@@ -61,6 +74,12 @@ or
 ```
 import VueResizeObserver from "vue-resize-observer";
 Vue.use(VueResizeObserver);
+// Vue3.0
+const app = createApp(App)
+app.use(VueResizeObserver) // use is a instance's method & be called before mount
+app.mount('#app')
+// Vue2.0
+Vue.use(VueResizeObserver); // use is a static method
 ```
 
 
@@ -135,3 +154,4 @@ Set the `v-resize` directive for a DOM element and make the element position to 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/wangweiwei/vue-resize-observer/blob/master/LICENSE)
 
 Copyright (c) 2020-present, Wayne
+
