@@ -13,8 +13,8 @@ const vueResizeObserver = {
    *
    * @function install
    */
-  install(Vue) {
-    Vue.directive("resize", resizeObserverDirective);
+  install(app) {
+    app.directive("resize", resizeObserverDirective);
   }
 };
 
@@ -31,5 +31,5 @@ if (typeof exports == "object") {
   });
 } else if (typeof window !== "undefined" && window.Vue) {
   window.__vue_resize_observer__ = vueResizeObserver;
-  Vue.use(vueResizeObserver);
+  // Vue.use(vueResizeObserver);
 }

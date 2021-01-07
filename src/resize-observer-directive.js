@@ -92,25 +92,65 @@ function createResizeTrigger() {
  */
 export const resizeObserverDirective = {
   /**
-   * 在指令第一次绑定到元素上时调用，只调用一次
+   * bind → beforeMount
    *
    * @param el {Element} 操作的元素
-   *
    * @param binding {Object} 一些绑定相关的值
-   *
    * @param vnode {VNode} Vue 编译生成的虚拟节点
-   *
    * @param oldVnode {VNode} 上一个虚拟节点，仅在 update 和 componentUpdated 钩子中可用。
    *
-   * @function bind
+   * @function beforeMount
    */
-  bind(el, binding, vnode, oldVnode) {
+  beforeMount(el, binding, vnode, oldVnode) {
     // 获得真正的触发器
     el.__resizeTrigger__ = createResizeTrigger();
     el.__resizeTrigger__.__container__ = el;
     el.__resizeTrigger__.__resize__handler__ = binding.value;
     el.__resizeTrigger__.onload = registereResizeHandler;
+  },
 
+  /**
+   * inserted → mounted
+   *
+   * @param el {Element} 操作的元素
+   * @param binding {Object} 一些绑定相关的值
+   * @param vnode {VNode} Vue 编译生成的虚拟节点
+   * @param oldVnode {VNode} 上一个虚拟节点，仅在 update 和 componentUpdated 钩子中可用。
+   *
+   * @function mounted
+   */
+  mounted(el, binding, vnode, oldVnode) {
+    if (getComputedStyle(el).position === "static") {
+      el.style.setProperty("position", "relative", "important");
+    }
+  },
+
+  /**
+   * beforeUpdate (new)
+   *
+   * @param el {Element} 操作的元素
+   * @param binding {Object} 一些绑定相关的值
+   * @param vnode {VNode} Vue 编译生成的虚拟节点
+   * @param oldVnode {VNode} 上一个虚拟节点，仅在 update 和 componentUpdated 钩子中可用。
+   *
+   * @function beforeUpdate
+   */
+  beforeUpdate(el, binding, vnode, oldVnode) {
+
+  },
+
+  /**
+   * update (has been removed)
+   * componentUpdated → updated
+   *
+   * @param el {Element} 操作的元素
+   * @param binding {Object} 一些绑定相关的值
+   * @param vnode {VNode} Vue 编译生成的虚拟节点
+   * @param oldVnode {VNode} 上一个虚拟节点，仅在 update 和 componentUpdated 钩子中可用。
+   *
+   * @function updated
+   */
+  updated(el, binding, vnode, oldVnode) {
     // 将真正的触发器作为子元素添加到当前元素
     const _isIE = isIE();
     _isIE && el.appendChild(el.__resizeTrigger__);
@@ -119,26 +159,29 @@ export const resizeObserverDirective = {
   },
 
   /**
-   * 被绑定元素插入父节点时调用 (仅保证父节点存在，但不一定已被插入文档中)。
+   * beforeUnmount (new)
    *
    * @param el {Element} 操作的元素
+   * @param binding {Object} 一些绑定相关的值
+   * @param vnode {VNode} Vue 编译生成的虚拟节点
+   * @param oldVnode {VNode} 上一个虚拟节点，仅在 update 和 componentUpdated 钩子中可用。
    *
-   * @function inserted
+   * @function beforeMount
    */
-  inserted(el) {
-    if (getComputedStyle(el).position === "static") {
-      el.style.setProperty("position", "relative", "important");
-    }
+  beforeUnmount(el, binding, vnode, oldVnode) {
+    
   },
-
   /**
-   * 在指令从元素上解绑时调用，只调用一次
+   * unbind -> unmounted
    *
    * @param el {Element} 操作的元素
+   * @param binding {Object} 一些绑定相关的值
+   * @param vnode {VNode} Vue 编译生成的虚拟节点
+   * @param oldVnode {VNode} 上一个虚拟节点，仅在 update 和 componentUpdated 钩子中可用。
    *
-   * @function unbind
+   * @function unmounted
    */
-  unbind(el) {
+  unmounted(el, binding, vnode, oldVnode) {
     if (document.attachEvent) {
       el.detachEvent("onresize", resizeHandler);
     } else if (el.__resizeTrigger__ && el.__resizeTrigger__.contentDocument) {
@@ -148,5 +191,5 @@ export const resizeObserverDirective = {
       );
       el.__resizeTrigger__ = !el.removeChild(el.__resizeTrigger__);
     }
-  }
+  },
 };
