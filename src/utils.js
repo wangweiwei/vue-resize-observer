@@ -16,8 +16,8 @@ export function isIE() {
 
 var lastTime = 0;
 var vendors = ["ms", "moz", "webkit", "o"];
-if (typeof window === 'undefined') {
-  global.window = {}
+if (typeof window === "undefined") {
+  global.window = {};
 }
 for (var x = 0; x < vendors.length && !window.requestAnimationFrame; ++x) {
   window.requestAnimationFrame = window[vendors[x] + "RequestAnimationFrame"];

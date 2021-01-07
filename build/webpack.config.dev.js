@@ -15,8 +15,8 @@ const config = {
   },
   resolve: {
     alias: {
-      vue$: "vue/dist/vue"
-    },
+      vue$: "vue"
+    }
   },
   module: {
     rules: [

@@ -1,4 +1,4 @@
-import { resizeObserverDirective } from './resize-observer-directive';
+import { resizeObserverDirective } from "./resize-observer-directive";
 
 /**
  * vue resize事件对象

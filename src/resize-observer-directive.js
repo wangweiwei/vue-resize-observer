@@ -1,8 +1,4 @@
-import {
-  isIE,
-  $requestAnimationFrame,
-  $cancelAnimationFrame
-} from "./utils";
+import { isIE, $requestAnimationFrame, $cancelAnimationFrame } from "./utils";
 
 /**
  * resize处理器，此处回调元素v-resize的方法

@@ -11,8 +11,8 @@ export default {
   data() {
     return {
       width: 0,
-      height: 0,
-    }
+      height: 0
+    };
   },
 
   methods: {
@@ -21,5 +21,4 @@ export default {
       this.height = height;
     }
   }
-}
-
+};
