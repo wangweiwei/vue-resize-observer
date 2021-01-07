@@ -1,5 +1,5 @@
 import { mount } from "@vue/test-utils";
-import jtest from 'vue-jest';
+import jtest from "vue-jest";
 import ResizeComponent from "./resize.component";
 import ResizeObserver from "../../src/index";
 import { resizeObserverDirective } from "../../src/resize-observer-directive";
@@ -24,13 +24,13 @@ describe("object的插入及其样式、属性", () => {
         Vue.directive("resize", resizeObserverDirective);
         installed();
       }
-    }
+    };
 
     mount(ResizeComponent, {
       global: {
-        plugins: [Plugin],
+        plugins: [Plugin]
       }
-    })
+    });
 
     expect(installed).toHaveBeenCalled();
   });

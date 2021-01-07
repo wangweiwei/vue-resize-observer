@@ -27,5 +27,5 @@ var app = Vue.createApp({
     }
   }
 });
-app.use(window.__vue_resize_observer__)
-app.mount('#app')
+app.use(window.__vue_resize_observer__);
+app.mount("#app");

@@ -107,6 +107,12 @@ export const resizeObserverDirective = {
     el.__resizeTrigger__.__container__ = el;
     el.__resizeTrigger__.__resize__handler__ = binding.value;
     el.__resizeTrigger__.onload = registereResizeHandler;
+
+    // 将真正的触发器作为子元素添加到当前元素
+    const _isIE = isIE();
+    _isIE && el.appendChild(el.__resizeTrigger__);
+    el.__resizeTrigger__.data = "about:blank";
+    !_isIE && el.appendChild(el.__resizeTrigger__);
   },
 
   /**
@@ -135,9 +141,7 @@ export const resizeObserverDirective = {
    *
    * @function beforeUpdate
    */
-  beforeUpdate(el, binding, vnode, oldVnode) {
-
-  },
+  beforeUpdate(el, binding, vnode, oldVnode) {},
 
   /**
    * update (has been removed)
@@ -151,11 +155,18 @@ export const resizeObserverDirective = {
    * @function updated
    */
   updated(el, binding, vnode, oldVnode) {
-    // 将真正的触发器作为子元素添加到当前元素
-    const _isIE = isIE();
-    _isIE && el.appendChild(el.__resizeTrigger__);
-    el.__resizeTrigger__.data = "about:blank";
-    !_isIE && el.appendChild(el.__resizeTrigger__);
+    var inserted = false;
+    for (var i = 0, length = el.children; i < length; i++) {
+      if (el.children[i] === el.__resizeTrigger__) {
+        inserted = true;
+      }
+    }
+    if (!inserted) {
+      var _isIE = isIE();
+      _isIE && el.appendChild(el.__resizeTrigger__);
+      el.__resizeTrigger__.data = "about:blank";
+      !_isIE && el.appendChild(el.__resizeTrigger__);
+    }
   },
 
   /**
@@ -168,9 +179,7 @@ export const resizeObserverDirective = {
    *
    * @function beforeMount
    */
-  beforeUnmount(el, binding, vnode, oldVnode) {
-    
-  },
+  beforeUnmount(el, binding, vnode, oldVnode) {},
   /**
    * unbind -> unmounted
    *
@@ -191,5 +200,5 @@ export const resizeObserverDirective = {
       );
       el.__resizeTrigger__ = !el.removeChild(el.__resizeTrigger__);
     }
-  },
+  }
 };
