@@ -1,4 +1,4 @@
-var app = new Vue({
+var app = Vue.createApp({
   el: "#app",
   data() {
     return {
@@ -27,3 +27,5 @@ var app = new Vue({
     }
   }
 });
+app.use(window.__vue_resize_observer__)
+app.mount('#app')

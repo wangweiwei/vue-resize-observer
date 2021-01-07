@@ -44,6 +44,12 @@
 ![demo gif](https://github.com/wangweiwei/vue-resize-observer/raw/master/example/demo.gif)
 
 ## 安装
+`
+- Vue3.0
+```
+npm install --save vue-resize-observer@next
+```
+- Vue2.0
 ```
 npm install --save vue-resize-observer
 ```
@@ -54,6 +60,42 @@ npm install --save vue-resize-observer
 ```
 const VueResizeObserver = require("vue-resize-observer");
 Vue.use(VueResizeObserver);
+// Vue3.0
+const app = createApp(App)
+app.use(VueResizeObserver) // use is a instance's method & be called before mount
+app.mount('#app')
+// Vue2.0
+Vue.use(VueResizeObserver); // use is a static method
+```
+
+or
+
+```
+import VueResizeObserver from "vue-resize-observer";
+Vue.use(VueResizeObserver);
+// Vue3.0
+const app = createApp(App)
+app.use(VueResizeObserver) // use is a instance's method & be called before mount
+app.mount('#app')
+// Vue2.0
+Vue.use(VueResizeObserver); // use is a static method
+```
+
+
+* Then `v-resize` directive to detect DOM resize events.
+```
+<template>
+  <div class="resize" v-resize="onResize">
+    width: {{width}}, height: {{height}}
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+// Vue2.0
+Vue.use(VueResizeObserver); // use is a static method
 ```
 
 或者
@@ -61,6 +103,10 @@ Vue.use(VueResizeObserver);
 ```
 import VueResizeObserver from "vue-resize-observer";
 Vue.use(VueResizeObserver);
+// Vue3.0
+app.use(VueResizeObserver) // use is a instance's method
+// Vue2.0
+Vue.use(VueResizeObserver); // use is a static method
 ```
 
 * 在组件元素中使用`v-resize`

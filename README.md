@@ -43,6 +43,11 @@ English | [简体中文](https://github.com/wangweiwei/vue-resize-observer/blob/
 
 ## Installation
 
+- Vue3.0
+```
+npm install --save vue-resize-observer@next
+```
+- Vue2.0
 ```
 npm install --save vue-resize-observer
 ```
@@ -53,7 +58,12 @@ npm install --save vue-resize-observer
 
 ```
 const VueResizeObserver = require("vue-resize-observer");
-Vue.use(VueResizeObserver);
+// Vue3.0
+const app = createApp(App)
+app.use(VueResizeObserver) // use is a instance's method & be called before mount
+app.mount('#app')
+// Vue2.0
+Vue.use(VueResizeObserver); // use is a static method
 ```
 
 or
@@ -61,6 +71,12 @@ or
 ```
 import VueResizeObserver from "vue-resize-observer";
 Vue.use(VueResizeObserver);
+// Vue3.0
+const app = createApp(App)
+app.use(VueResizeObserver) // use is a instance's method & be called before mount
+app.mount('#app')
+// Vue2.0
+Vue.use(VueResizeObserver); // use is a static method
 ```
 
 
