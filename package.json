@@ -1,6 +1,6 @@
 {
   "name": "vue-resize-observer",
-  "version": "2.0.13",
+  "version": "2.0.15",
   "description": "Vue普通元素resize事件监听",
   "main": "dist/index.js",
   "files": [
