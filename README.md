@@ -13,6 +13,9 @@
   <a href="https://vuejs.org/" rel="nofollow">
     <img alt="vue2" src="https://img.shields.io/badge/vue-2.x-brightgreen.svg" style="max-width:100%;">
   </a>
+  <a href="https://vuejs.org/" rel="nofollow">
+    <img alt="vue3" src="https://img.shields.io/badge/vue-3.x-brightgreen.svg" style="max-width:100%;">
+  </a>
   <a href="https://github.com/wangweiwei/vue-resize-observer/issues">
     <img alt="Issue" src="https://img.shields.io/badge/-help--wanted-brightgreen" style="max-width:100%;">
   </a>
