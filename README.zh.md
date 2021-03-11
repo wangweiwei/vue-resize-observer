@@ -50,20 +50,20 @@
 ![demo gif](https://github.com/wangweiwei/vue-resize-observer/raw/master/example/demo.gif)
 
 ## 安装
-`
+
 - Vue3.0
-```
+``` sh
 npm install --save vue-resize-observer@next
 ```
 - Vue2.0
-```
+``` sh
 npm install --save vue-resize-observer
 ```
 
 ## 使用
 
 * 在入口文件(比如：`main.js`)中引入并`use`
-```
+``` js
 const VueResizeObserver = require("vue-resize-observer");
 Vue.use(VueResizeObserver);
 // Vue3.0
@@ -76,7 +76,7 @@ Vue.use(VueResizeObserver); // use is a static method
 
 or
 
-```
+``` js
 import VueResizeObserver from "vue-resize-observer";
 Vue.use(VueResizeObserver);
 // Vue3.0
@@ -89,7 +89,7 @@ Vue.use(VueResizeObserver); // use is a static method
 
 
 * Then `v-resize` directive to detect DOM resize events.
-```
+``` vue
 <template>
   <div class="resize" v-resize="onResize">
     width: {{width}}, height: {{height}}
@@ -106,7 +106,7 @@ Vue.use(VueResizeObserver); // use is a static method
 
 或者
 
-```
+``` js
 import VueResizeObserver from "vue-resize-observer";
 Vue.use(VueResizeObserver);
 // Vue3.0
@@ -116,7 +116,7 @@ Vue.use(VueResizeObserver); // use is a static method
 ```
 
 * 在组件元素中使用`v-resize`
-```
+``` vue
 <template>
   <div class="resize" v-resize="onResize">
     width: {{width}}, height: {{height}}
@@ -162,7 +162,7 @@ export default {
 ## 开发 
 
 * 运行
-```
+``` sh
 npm run dev
 ```
 
@@ -175,7 +175,7 @@ npm run dev
 ## 开发文档
 
 * 文档生成
-```
+``` sh
 npm run doc
 ```
 
