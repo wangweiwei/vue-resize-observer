@@ -50,11 +50,11 @@ English | [简体中文](https://github.com/wangweiwei/vue-resize-observer/blob/
 ## Installation
 
 - Vue3.0
-```
+``` sh
 npm install --save vue-resize-observer@next
 ```
 - Vue2.0
-```
+``` sh
 npm install --save vue-resize-observer
 ```
 
@@ -62,7 +62,7 @@ npm install --save vue-resize-observer
 
 * Import the package and install it into Vue:
 
-```
+``` js
 const VueResizeObserver = require("vue-resize-observer");
 // Vue3.0
 const app = createApp(App)
@@ -74,7 +74,7 @@ Vue.use(VueResizeObserver); // use is a static method
 
 or
 
-```
+``` js
 import VueResizeObserver from "vue-resize-observer";
 Vue.use(VueResizeObserver);
 // Vue3.0
@@ -87,7 +87,7 @@ Vue.use(VueResizeObserver); // use is a static method
 
 
 * Then `v-resize` directive to detect DOM resize events.
-```
+``` vue
 <template>
   <div class="resize" v-resize="onResize">
     width: {{width}}, height: {{height}}
@@ -136,7 +136,7 @@ export default {
 
 ## Documentation
 
-```
+``` sh
 npm run doc
 ```
 
