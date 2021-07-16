@@ -5,18 +5,18 @@ import { resizeObserverDirective } from "./resize-observer-directive";
  *
  * @module vueResizeObserver
  */
-const vueResizeObserver = {
-  /**
-   * 插件安装方法
-   *
-   * @param Vue {Vue} Vue构造器
-   *
-   * @function install
-   */
-  install(app) {
-    app.directive("resize", resizeObserverDirective);
-  }
-};
+const vueResizeObserver = resizeObserverDirective
+
+/**
+ * 插件安装方法
+ *
+ * @param Vue {Vue} Vue构造器
+ *
+ * @function install
+ */
+resizeObserverDirective.install = function (app) {
+  app.directive("resize", resizeObserverDirective);
+}
 
 export default vueResizeObserver;
 

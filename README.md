@@ -85,6 +85,20 @@ app.mount('#app')
 Vue.use(VueResizeObserver); // use is a static method
 ```
 
+or
+
+``` js
+import VueResizeObserver from "vue-resize-observer";
+// Vue3.0
+Vue.createApp({
+  directives: { 'resize': VueResizeObserver },
+})
+// Vue2.0
+new Vue({
+  directives: { 'resize': VueResizeObserver },
+})
+```
+
 
 * Then `v-resize` directive to detect DOM resize events.
 ``` vue
