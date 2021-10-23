@@ -115,6 +115,20 @@ app.use(VueResizeObserver) // use is a instance's method
 Vue.use(VueResizeObserver); // use is a static method
 ```
 
+或者
+
+``` js
+import VueResizeObserver from "vue-resize-observer";
+// Vue3.0
+Vue.createApp({
+  directives: { 'resize': VueResizeObserver },
+})
+// Vue2.0
+new Vue({
+  directives: { 'resize': VueResizeObserver },
+})
+```
+
 * 在组件元素中使用`v-resize`
 ``` vue
 <template>
